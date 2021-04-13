@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+/* width : 1800px */
+@media screen and (max-width:1800px){
+    section>.welcome>.welcome_container>.welcome_txt{
+        top: 45px;
+        width: 40%;
+    }
+}
+
+/* width : 1760px */
+@media screen and (max-width:1760px){
+    section>.bestseller>.bestseller_container>ul{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    section>.bestseller>.bestseller_container>ul>li{
+        width: 30%;
+        height: 600px;
+    }
+    section>.bestseller>.bestseller_container>ul>li>.item_img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* width : 1560px */
+@media screen and (max-width:1560px){
+    section>.promotion>.promotion_container>.promotion_item>li{
+        width: 25%;
+    }
+}
+
+/* width : 1525px */
+@media screen and (max-width:1525px){
+    section>.welcome>.welcome_container>.welcome_txt{
+        top: 35px;
+        width: 35%;
+    }
+
+    section>.instagram>.instagram_container>ul>li{
+        width: 300px;
+    }
+    section>.instagram>.instagram_container>ul>li>a{
+        height: 300px;
+    }
+    
+}
+
+/* 1300px */
+@media screen and (max-width:1300px){
+    header{background-color: #fff;}
+    header>.gnb{
+        justify-content:flex-start;
+        min-width: 100%;
+    }
+    header>.gnb>li{
+        min-width: 20%;
+        padding: 0;
+    }
+    header>.gnb>li>.sub{
+        top: 62px;
+    }
+    header>.sub_bg{
+        width: 0;
+    }
+
+    section,
+    section>.bestseller>.bestseller_container>ul,
+    section>.promotion>.promotion_container,
+    section>.bottom_slide>ol>li,
+    footer{min-width: 100%;}
+
+    section>.promotion>.promotion_container>.promotion_event{
+        width: 95%;
+    }
+    section>.promotion>.promotion_container>.promotion_event>li{
+        width: 33%;
+        height: auto;
+    }
+}
+
+
+/* 1270px */
+@media screen and (max-width:1270px){
+    section>.welcome>.welcome_container>.vid_wrap{margin: 0 auto;}
+    section>.welcome>.welcome_container>.welcome_txt{display: none;}
+}
+
+/* 1220px */
+@media screen and (max-width:1220px){
+    section>.bestseller>.bestseller_container>ul>li,
+    section>.promotion>.promotion_container>.promotion_item>li{
+        height: 500px;
+    }
+    section>.promotion>.promotion_container>.promotion_item>li{margin-bottom: 20px;}
+
+    section>.instagram>.instagram_container>ul{min-width: 100%;}
+    section>.instagram>.instagram_container>ul>li{width: 25%;}
+    section>.instagram>.instagram_container>ul>li>a{height: 300px;}
+
+    footer>.footer_container>.customer_center{width: 40%;}
+    footer>.footer_container>.links{width: 20%;}
+    footer>.footer_container>.account{display: none;}
+    footer>.footer_container>.product{width: 40%;}
+}
+
+/* 태블릿 */
+@media screen and (max-width:992px){
+    section>.bestseller>.bestseller_container>ul>li{
+        width: 300px;
+        height: 460px;
+    }
+    section>.promotion>.promotion_container>.promotion_event{
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    section>.promotion>.promotion_container>.promotion_event>li{
+        width: 402px;
+        margin-bottom: 10px;
+    }
+    section>.promotion>.promotion_container>.promotion_item>li{
+        width: 430px;
+        height: 600px;
+        margin-bottom: 10px;
+    }
+
+    section>.instagram>.instagram_container>ul{
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    section>.instagram>.instagram_container>ul>li{width: 300px;}
+    section>.instagram>.instagram_container>ul>li>a{height: 300px;}
+    section>.instagram>.instagram_container>ul>li:nth-of-type(4)>a{display: none;}
+
+    section,
+    section>.bestseller>.bestseller_container>ul,
+    section>.promotion>.promotion_container,
+    section>.bottom_slide>ol>li,
+    footer{min-width: 992px;}
+}
+
