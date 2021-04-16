@@ -142,3 +142,13 @@
     footer{min-width: 992px;}
 }
 
+
+/* 755px */
+@media screen and (max-width:755px){
+    header>.gnb>li>.sub{
+        top: 92px;
+    }
+
+
+}
+
